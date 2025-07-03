@@ -33,8 +33,8 @@ export default function Dashboard() {
           trend="up"
         />
         <MetricCard 
-          title="Investimento Total Liberado"
-          value="US$ 892,340"
+          title="Investimento Total Já Liberado"
+          value="US$ 1.216.892,90"
           change="+22.3%"
           icon={DollarSign}
           trend="up"
@@ -61,25 +61,25 @@ export default function Dashboard() {
           <CardHeader>
             <CardTitle className="flex items-center gap-2">
               <Target className="w-5 h-5" />
-              Calculadora de Investimento - Visão Geral
+              Sua Calculadora de Investimento
             </CardTitle>
           </CardHeader>
           <CardContent>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
               <div className="text-center">
                 <div className="text-3xl font-bold text-green-600">US$ 3,313.16</div>
-                <p className="text-sm text-gray-600">Valor Total Disponível</p>
+                <p className="text-sm text-gray-600">Valor Total</p>
                 <p className="text-xs text-gray-500">GitHub Student Pack + Extras</p>
               </div>
               <div className="text-center">
                 <div className="text-3xl font-bold text-blue-600">US$ 2,156.24</div>
-                <p className="text-sm text-gray-600">Já Investido (Média)</p>
+                <p className="text-sm text-gray-600">Valor resgatado</p>
                 <Progress value={65} className="mt-2" />
               </div>
               <div className="text-center">
                 <div className="text-3xl font-bold text-purple-600">US$ 1,156.92</div>
-                <p className="text-sm text-gray-600">Saldo Disponível</p>
-                <p className="text-xs text-gray-500">Para liberar com estudo</p>
+                <p className="text-sm text-gray-600">Ainda não Resgatado</p>
+                <p className="text-xs text-gray-500">Já disponível</p>
               </div>
             </div>
           </CardContent>
@@ -97,21 +97,21 @@ export default function Dashboard() {
             <div className="space-y-4">
               <div className="flex items-center justify-between">
                 <div>
-                  <p className="font-medium">Maria Silva ativou GitHub Copilot</p>
+                  <p className="font-medium">Gabriene ativou GitHub Copilot</p>
                   <p className="text-sm text-gray-500">+US$ 480 liberados • Há 1 hora</p>
                 </div>
                 <div className="text-green-600 font-bold">+US$ 480</div>
               </div>
               <div className="flex items-center justify-between">
                 <div>
-                  <p className="font-medium">João Santos completou 20h de estudo</p>
+                  <p className="font-medium">Cynthia completou 20h de estudo</p>
                   <p className="text-sm text-gray-500">Créditos acumulados • Há 2 horas</p>
                 </div>
                 <div className="text-blue-600 font-bold">+20 créditos</div>
               </div>
               <div className="flex items-center justify-between">
                 <div>
-                  <p className="font-medium">Ana Costa ativou JetBrains IDEs</p>
+                  <p className="font-medium">Vinicius ativou JetBrains IDEs</p>
                   <p className="text-sm text-gray-500">+US$ 1,195 liberados • Há 4 horas</p>
                 </div>
                 <div className="text-green-600 font-bold">+US$ 1,195</div>

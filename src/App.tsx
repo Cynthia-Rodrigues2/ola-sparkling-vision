@@ -34,10 +34,10 @@ const App = () => (
             <DashboardLayout>
               <div className="text-center py-12">
                 <h1 className="text-2xl font-bold">Calculadora de Investimento</h1>
-                <p className="text-gray-600">Descubra quanto você pode "ganhar" com o GitHub Student Pack</p>
+                <p className="text-gray-600">Quanto você pode economizar com o GitHub Student Pack</p>
                 <div className="mt-8 p-6 bg-blue-50 rounded-lg max-w-md mx-auto">
                   <div className="text-4xl font-bold text-blue-600 mb-2">US$ 3,313.16</div>
-                  <p className="text-sm text-gray-600">Valor total disponível para investir na sua carreira</p>
+                  <p className="text-sm text-gray-600">Valor total do investimento na sua carreira</p>
                 </div>
               </div>
             </DashboardLayout>
@@ -45,7 +45,7 @@ const App = () => (
           <Route path="/dashboard/journey" element={
             <DashboardLayout>
               <div className="text-center py-12">
-                <h1 className="text-2xl font-bold">Jornada Gamificada</h1>
+                <h1 className="text-2xl font-bold">Jornada</h1>
                 <p className="text-gray-600">Acompanhe seu progresso e libere mais investimentos</p>
               </div>
             </DashboardLayout>
